@@ -1,7 +1,8 @@
 const prompt = require("prompt-sync")()
 
-const minutos = Number(prompt("Quantos minutos tem o filme? "))
+const duracao = Number(prompt("Insira a duração do filme em minutos: "))
 
-const duracao = minutos / 60
+const horas = Math.floor(duracao / 60)
+const minutos = duracao % 60
 
-console.log(`A duração do filme em minutos é: ${duracao.toFixed(2)}`)
+console.log(`A duração do filme é de ${horas}Hrs e ${minutos}Min`)

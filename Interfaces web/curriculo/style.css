@@ -1,10 +1,12 @@
 body {
- background-color: blanchedalmond;
+ background: rgb(39,182,199);
+background: linear-gradient(0deg, rgba(39,182,199,1) 36%, rgba(35,43,130,1) 100%);
  font-family: Arial, Helvetica, sans-serif;
 
 }
 h1, h2, div{
     text-align: center;
+    color: whitesmoke;
 }
 hr{ 
     margin: 40px 0;

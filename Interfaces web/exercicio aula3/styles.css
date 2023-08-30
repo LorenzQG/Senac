@@ -1,0 +1,81 @@
+body{
+
+    background: rgb(227,162,152);
+background: radial-gradient(circle, rgba(227,162,152,1) 0%, rgba(126,74,54,1) 79%);
+	font-family: Arial, Helvetica, sans-serif;
+    max-width: 940px; 
+    margin: 0 auto;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+
+}
+
+h1,h2{
+
+    text-align: center;
+}
+
+h1{
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    margin: 10px;
+}
+
+h2{
+    border-bottom: black solid;
+}
+
+p{
+    margin-left: 5px;
+}
+
+.image{
+
+	max-width: 300px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;
+    background-color: whitesmoke;
+}
+
+#logo{
+    
+    margin: auto;
+    display: block;
+
+}
+
+
+
+figure {
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 300px;
+  margin: auto;
+}
+
+figcaption {
+
+  color: black;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+ul.separator{
+    list-style: none;
+    padding: 1;
+    width: 80%;
+}
+
+ul.separator li{
+    padding: .6em 0;
+    border-bottom: 1px solid #CCC;
+}
+ul.separator li:last-child{
+    border-bottom: 0;
+}
