@@ -33,6 +33,7 @@ h1{
 h2{
     background-color: whitesmoke;
     border-bottom: black solid;
+    margin: 20px;
 }
 
 p{
@@ -91,6 +92,7 @@ ul.separator{
     list-style: none;
     padding: 1;
     width: 80%;
+    margin-left: 5%;
 }
 
 ul.separator li{
