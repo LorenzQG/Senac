@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+    <head>
+        <meta charset= "UTF-8">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>Box model</title>
+
+        <style>
+            .borda{
+            border: 2px solid red;
+
+            /* Tamanho é decidido em sentindo horario na ordem *em cima*, *direita*, *em baixo*, *esquerda* ou *em cima e em baixo* e *laterais* */
+            padding: 20px 10px;
+            margin:25px 30px 40px 45px;
+            }
+
+            .comportamento{
+            display: inline-block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 class="borda">Titulo</h1>
+        <h1>Titulo2</h1>
+
+        <p>outro paragrafo</p>
+        <p>paragrafo</p>
+
+        <a href="" class="borda comportamento">isso é um link</a>
+        <a href="">outro link</a>
+    </body>
+</html>

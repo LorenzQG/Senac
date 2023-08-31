@@ -2,11 +2,18 @@ body {
  background: rgb(39,182,199);
 background: linear-gradient(0deg, rgba(39,182,199,1) 36%, rgba(35,43,130,1) 100%);
  font-family: Arial, Helvetica, sans-serif;
+    max-width: 750px;
+    margin: 0 auto;
 
 }
+
 h1, h2, div{
     text-align: center;
-    color: whitesmoke;
+    color: rgb(39,182,199);
+}
+h1, h2{
+    background-color: whitesmoke;
+
 }
 hr{ 
     margin: 40px 0;
@@ -15,7 +22,7 @@ hr{
 .hr1 {
     border: 0;
     height: 2px;
-    width: 50%;
+    width: 70%;
     background-image: linear-gradient(to right, transparent, #CCC, transparent);  
   }
 

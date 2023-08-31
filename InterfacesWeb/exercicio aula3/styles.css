@@ -1,32 +1,43 @@
 body{
 
-    background: rgb(227,162,152);
-background: radial-gradient(circle, rgba(227,162,152,1) 0%, rgba(126,74,54,1) 79%);
+    background: rgb(4,3,13);
+    background: linear-gradient(194deg, 
+    rgba(4,3,13,1) 13%,
+     rgba(113,13,79,1) 55%, 
+     rgba(136,1,28,1) 100%);
 	font-family: Arial, Helvetica, sans-serif;
-    max-width: 940px; 
-    margin: 0 auto;
-    border-right: 3px solid black;
-    border-left: 3px solid black;
+    max-width: 940px;    
+    margin: auto;
+    padding: 20px;
+    border-right: 3px solid rgba(122, 121, 121, 0.253);
+    border-left: 3px solid rgb(122, 121, 121, 0.253);
+
 
 }
+
 
 h1,h2{
 
     text-align: center;
+    border-radius: 20px;
+    opacity: 76%;
 }
 
 h1{
     color: #3D3D3D;
     background-color: #E1EDF2;
     margin: 10px;
+    
 }
 
 h2{
+    background-color: whitesmoke;
     border-bottom: black solid;
 }
 
 p{
-    margin-left: 5px;
+    margin: 15px 20px;
+    color: aliceblue;
 }
 
 .image{
@@ -38,12 +49,21 @@ p{
     margin: auto;
     display: block;
     background-color: whitesmoke;
+    padding: 15px;
+
 }
 
 #logo{
     
-    margin: auto;
+    min-width: 100px;
+    min-height: 90px;
+
+    max-width: auto;
+    max-height: auto;
+
+    margin: 0px auto 60px ;
     display: block;
+    padding: 10px ;
 
 }
 
@@ -52,14 +72,15 @@ p{
 figure {
   display: flex;
   flex-flow: column;
-  padding: 5px;
+  padding: 20px;
   max-width: 300px;
   margin: auto;
+
 }
 
 figcaption {
 
-  color: black;
+  color: aliceblue;
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: left;
@@ -75,6 +96,7 @@ ul.separator{
 ul.separator li{
     padding: .6em 0;
     border-bottom: 1px solid #CCC;
+    color: aliceblue;
 }
 ul.separator li:last-child{
     border-bottom: 0;
