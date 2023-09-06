@@ -8,9 +8,12 @@ console.log(`Modelo: ${modelo}`)
 console.log(`Marca: ${marca}`)
 console.log(`Preço: ${preco}`)
 
-if(marca == "Fiat") {
+let desconto
 
-    const desconto = preco * 0.10
+//toUpperCase converte a string para maiuscula 
+if(marca.toUpperCase() == "FIAT") {
+
+    desconto = preco * 0.10
     const precVist = preco - desconto
     console.log(`Desconto ${desconto}`)
     console.log(`Preço à vista: ${precVist}`)
@@ -18,7 +21,7 @@ if(marca == "Fiat") {
 
 }else{
 
-    const desconto = preco * 0.20
+    desconto = preco * 0.20
     const precVist = preco - desconto
     console.log(`Desconto ${desconto}`)
     console.log(`Preço à vista: ${precVist}`)
