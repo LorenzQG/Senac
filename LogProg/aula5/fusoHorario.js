@@ -2,7 +2,17 @@ const prompt = require("prompt-sync")()
 
 const horaB = Number(prompt("Digite a hora: "))
 
-const horaF = (horaB + 5) - 24
+let horaF
 
 console.log(`Hora no Brasil: ${horaB}`)
-console.log(`Hora na França: ${horaF}`)
+
+
+if(horaB < 19){
+
+    horaF = horaB + 5
+    console.log(`Hora na França: ${horaF}`)
+
+}else{
+    horaF = (horaB + 5) - 24
+    console.log(`Hora na França: ${horaF}`)
+}

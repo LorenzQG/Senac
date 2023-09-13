@@ -29,3 +29,23 @@ if(lado1 < (lado2 + lado3)){
 }else{
     console.log("Lados não podem formar um triangulo")
 }
+
+/* Melhor forma
+  
+ if(a > b + c || b > a + c || c > a + b){
+    console.log("Lados não podem formar um triangulo")
+ } else {
+    console.log("Lados podem formar um triangulo")
+    if(a == b && a == c){
+        console.log("Tipo: Equilatero")
+
+    }else if(a == b || a == c || b == c){
+        console.log("Tipo: Isósceles")
+    } else {
+        console.log("Tipo: Escaleno")
+    }
+    
+
+ }
+
+*/
