@@ -1,0 +1,23 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+
+}
+.cabecalho{
+
+ 
+}
+.cabecalho--menu{
+    text-align: right;
+    
+}
+.logo{
+    float: left;
+    height: 10vh;
+    width: 10vh;
+    
+}
+
