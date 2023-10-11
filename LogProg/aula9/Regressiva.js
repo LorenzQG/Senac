@@ -2,9 +2,9 @@ const prompt = require("prompt-sync")()
 
 const num = Number(prompt("Digite o numero: "))
 
-console.log("contagem regressiva:")
+process.stdout.write("contagem regressiva....: ")
 for(i = num; i >=1; i = i - 1){
-    console.log(`${i}`)
+process.stdout.write(i + " ")
 }
 
 console.log("Fogo!!")
