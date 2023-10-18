@@ -8,7 +8,7 @@ const num = Number(prompt("Insira o numero de vezes: "))
 
 for(i = 1; i <= num; i++){
     const verifica = i % 2
-    if(verifica == 0){
+    if(verifica == 1){
     process.stdout.write(simb1)
     }else{
     process.stdout.write(simb2)

@@ -8,7 +8,7 @@
  do{
     num = Number(prompt("Numero: "))
 
-    if(num != 0){
+    if(num > 0){
     numDig++
     soma += num
     let verifica = num % 2
@@ -20,7 +20,7 @@
     
     }
 
- }while(num != 0)
+ }while(num > 0)
  console.log("-".repeat(30))
  console.log(`Numeros digitados: ${numDig}`)
  console.log(`Soma dos numeros: ${soma}`)
