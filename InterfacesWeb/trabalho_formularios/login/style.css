@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    display: flex;
+ }
+
+ .cabecalho{
+    
+    width: 717.97px;
+    height: 950px;
+    background-color: rgba(36, 229, 160, 0.78);
+    text-align: left;
+
+ }
+ .principal{
+
+    width: 648px;
+    height: 882px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    
+ }
