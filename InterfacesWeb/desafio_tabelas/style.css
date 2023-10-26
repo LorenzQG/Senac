@@ -1,0 +1,26 @@
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+span{
+    font-weight: bold;
+}
+table, td{
+  border: 1px solid black;
+  border-top: 1px solid coral;
+  border-collapse: collapse;
+  padding: 1px 4em;
+  background-color: antiquewhite;
+}
+
+th{
+    border: 3px solid coral;
+    border-collapse: collapse;
+    background-color: orange;
+}
+tfoot{
+    text-align: center;
+}
+
+
