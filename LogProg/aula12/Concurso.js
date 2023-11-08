@@ -17,9 +17,9 @@ do{
     const y = Number(prompt("Pontuação: "))
 
     if(y < 30){
-        z = "Reprovado"
+        z = "Reprovado(a)"
     }else{
-        z = "Aprovado"
+        z = "Aprovado(a)"
     }
 
     nomes.push(x)
@@ -34,6 +34,6 @@ console.log("-".repeat(50))
 
 for(let i = 0; i < nomes.length; i++){
 
-    console.log(`${nomes[i]} - ${pontos[i]} - ${verifica[i]}`)
+    console.log(`${nomes[i]} - ${pontos[i]} acertos - ${verifica[i]}`)
 
 }
