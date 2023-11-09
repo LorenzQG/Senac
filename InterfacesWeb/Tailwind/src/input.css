@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cabecalho{
+    @apply flex justify-around items-center h-[4.5rem] bg-[#00856F]
+}
+.cabecalho__nav{
+    @apply text-white
+
+}
+.cabecalho__botao{
+    @apply text-white uppercase font-bold border-2 py-3 px-6 rounded-full
+}
