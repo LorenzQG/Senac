@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
-    <title>DoctorCare</title>
-  </head>
 
-  <body>
-    <header class="cabecalho">
-      <img src="img/Logo.title.png" alt="" class="cabecalho__logo" />
-      <nav class="cabecalho__nav">
-        <a href="#">Inicio</a>
-        <a href="#">Sobre</a>
-        <a href="#">Serviços</a>
-        <a href="#">Depoimentos</a>
-      </nav>
-      <button class="cabecalho__botao">agendar consulta</button>
-    </header>
-    <main class="principal">
-      <section class="principal__conteudo">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <title>DoctorCare</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img src="img/Logo.title.png" alt="" class="cabecalho__logo" />
+    <nav class="cabecalho__nav">
+      <a href="#">Inicio</a>
+      <a href="#">Sobre</a>
+      <a href="#">Serviços</a>
+      <a href="#">Depoimentos</a>
+    </nav>
+    <button class="cabecalho__botao">agendar consulta</button>
+  </header>
+  <main class="principal">
+    <section class="principal__conteudo">
+      <div class="arruma">
         <div class="conteudo__texto">
           <h2 class="texto__h2">boas vindas ao doctorcare 👋</h2>
           <h1 class="texto__h1">Assistencia médica simplificada para todos</h1>
@@ -34,118 +36,133 @@
         <div class="conteudo__imagem">
           <img src="/src/img/modelo.png" alt="" />
         </div>
-      </section>
+      </div>
+      <div class="container">
+        <div class="container__pacientes">
+          <h1 class="container__h1">+3.500</h1>
+          <h3 class="container__h3">Pacientes atendidos</h3>
+        </div>
+        <div class="container__medicos">
+          <h1 class="container__h1">+15</h1>
+          <h3 class="container__h3">Especialistas disponíveis</h3>
+        </div>
+        <div class="container__mercado">
+          <h1 class="container__h1">+10</h1>
+          <h3 class="container__h3">Anos no mercado</h3>
+        </div>
 
-      <section class="principal__servicos">
-        <div class="ajusta">
-          <div class="servicos__texto">
-            <h2 class="texto__servico">serviços</h2>
-            <h1 class="texto__ajuda">
-              Como podemos ajudá-lo a se sentir melhor?
-            </h1>
+      </div>
+    </section>
+
+
+    <section class="principal__servicos">
+      <div class="ajusta">
+        <div class="servicos__texto">
+          <h2 class="texto__servico">serviços</h2>
+          <h1 class="texto__ajuda">
+            Como podemos ajudá-lo a se sentir melhor?
+          </h1>
+        </div>
+
+        <div class="servicos__opcoes">
+          <div class="opcoes__card">
+            <img src="/src/img/check.png" alt="" />
+            <h3 class="card__titulo">Problemas Digestivos</h3>
+            <p class="card__texto">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
           </div>
-
-          <div class="servicos__opcoes">
-            <div class="opcoes__card">
-              <img src="/src/img/check.png" alt="" />
-              <h3 class="card__titulo">Problemas Digestivos</h3>
-              <p class="card__texto">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
-            </div>
-            <div class="opcoes__card">
-              <img src="/src/img/check.png" alt="" />
-              <h3 class="card__titulo">Saúde Hormonal</h3>
-              <p class="card__texto">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
-            </div>
-            <div class="opcoes__card">
-              <img src="/src/img/check.png" alt="" />
-              <h3 class="card__titulo">Bem-estar mental</h3>
-              <p class="card__texto">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
-            </div>
-            <div class="opcoes__card">
-              <img src="/src/img/check.png" alt="" />
-              <h3 class="card__titulo">Cuidados pediátricos</h3>
-              <p class="card__texto">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
-            </div>
-            <div class="opcoes__card">
-              <img src="/src/img/check.png" alt="" />
-              <h3 class="card__titulo">Autoimune e inflamação</h3>
-              <p class="card__texto">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
-            </div>
-            <div class="opcoes__card">
-              <img src="/src/img/check.png" alt="" />
-              <h3 class="card__titulo">Saúde do coração</h3>
-              <p class="card__texto">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
-            </div>
+          <div class="opcoes__card">
+            <img src="/src/img/check.png" alt="" />
+            <h3 class="card__titulo">Saúde Hormonal</h3>
+            <p class="card__texto">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
+          </div>
+          <div class="opcoes__card">
+            <img src="/src/img/check.png" alt="" />
+            <h3 class="card__titulo">Bem-estar mental</h3>
+            <p class="card__texto">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
+          </div>
+          <div class="opcoes__card">
+            <img src="/src/img/check.png" alt="" />
+            <h3 class="card__titulo">Cuidados pediátricos</h3>
+            <p class="card__texto">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
+          </div>
+          <div class="opcoes__card">
+            <img src="/src/img/check.png" alt="" />
+            <h3 class="card__titulo">Autoimune e inflamação</h3>
+            <p class="card__texto">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
+          </div>
+          <div class="opcoes__card">
+            <img src="/src/img/check.png" alt="" />
+            <h3 class="card__titulo">Saúde do coração</h3>
+            <p class="card__texto">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
           </div>
         </div>
-      </section>
-      <section class="principal__sobre">
-        <div class="sobre__image">
-          <img
-            src="/src/img/happy-doctor-holding-a-clipboard-with-patients.png"
-            alt=""
-          />
-        </div>
-        <div class="sobre__texto">
-          <h2 class="texto__sobre">sobre nós</h2>
-          <h1 class="texto__titulo">Entenda quem somos e por que existimos</h1>
-          <p class="texto__descricao">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim. Amet minim mollit non
-            deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-            consequat duis enim. Amet minim mollit non deserunt ullamco est sit
-            aliqua dolor do amet sint. Velit officia consequat duis enim. Amet
-            minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-            Velit officia consequat duis enim. Amet minim mollit non deserunt
-            ullamco est sit aliqua dolor do amet sint.
-          </p>
-        </div>
-      </section>
-      <section class="principal__contato">
-        <div class="contato__texto">
-          <h1 class="texto__contato">Entre em contato com a gente!</h1>
-          <h3 class="texto__redes"><img src="/src/img/map-pin 1.png" alt="">R. Amauri Souza, 346</h3>
-          <h3 class="texto__redes"><img src="/src/img/mail 1.png" alt="">contato@doctorcare.com</h3>
-          <button class="texto__button">
-            <img src="img/path4.png" alt="" />agende sua consulta
-          </button>
-        </div>
-        <div class="contato__image">
-          <img src="/src/img/modelocarinhadeoculos.png" alt="" />
-        </div>
-      </section>
-    </main>
-    <footer class="rodape">
-        <div class="rodape__logo">
-            <img src="/src/img/LOGOFOOT.png" alt="">
-            <h3 class="logo__texto">&copy;2023 - DoctorCare.</h3>
-            <h3 class="logo__texto">Todos os direitos reservados.</h3>
+      </div>
+    </section>
+    <section class="principal__sobre">
+      <div class="sobre__image">
+        <img src="/src/img/happy-doctor-holding-a-clipboard-with-patients.png" alt="" />
+      </div>
+      <div class="sobre__texto">
+        <h2 class="texto__sobre">sobre nós</h2>
+        <h1 class="texto__titulo">Entenda quem somos e por que existimos</h1>
+        <p class="texto__descricao">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim. Amet minim mollit non deserunt ullamco est sit
+          aliqua dolor do amet sint. Velit officia consequat duis enim. Amet
+          minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+          Velit officia consequat duis enim. Amet minim mollit non deserunt
+          ullamco est sit aliqua dolor do amet sint.
+        </p>
+      </div>
+    </section>
+    <section class="principal__contato">
+      <div class="contato__texto">
+        <h1 class="texto__contato">Entre em contato com a gente!</h1>
+        <h3 class="texto__redes"><img src="/src/img/map-pin 1.png" alt="">R. Amauri Souza, 346</h3>
+        <h3 class="texto__redes"><img src="/src/img/mail 1.png" alt="">contato@doctorcare.com</h3>
+        <button class="texto__button">
+          <img src="img/path4.png" alt="" />agende sua consulta
+        </button>
+      </div>
+      <div class="contato__image">
+        <img src="/src/img/modelocarinhadeoculos.png" alt="" />
+      </div>
+    </section>
+  </main>
+  <footer class="rodape">
+    <div class="rodape__logo">
+      <img src="/src/img/LOGOFOOT.png" alt="">
+      <h3 class="logo__texto">&copy;2023 - DoctorCare.</h3>
+      <h3 class="logo__texto">Todos os direitos reservados.</h3>
 
-        </div>
-        <div class="rodape__redes">
-            <a href="#"><img src="/src/img/instagram 1.png" alt=""></a>
-            <a href="#"><img src="/src/img/facebook 1.png" alt=""></a>
-            <a href="#"><img src="/src/img/youtube 1.png" alt=""></a>
-        </div>
+    </div>
+    <div class="rodape__redes">
+      <a href="#"><img src="/src/img/instagram 1.png" alt=""></a>
+      <a href="#"><img src="/src/img/facebook 1.png" alt=""></a>
+      <a href="#"><img src="/src/img/youtube 1.png" alt=""></a>
+    </div>
 
-    </footer>
-  </body>
+  </footer>
+</body>
+
 </html>

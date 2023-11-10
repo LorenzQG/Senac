@@ -534,6 +534,40 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .cabecalho {
   display: flex;
   height: 4.5rem;
@@ -595,11 +629,61 @@ video {
 .principal__conteudo {
   display: flex;
   height: 42.375rem;
-  width: 84.285rem;
-  justify-content: center;
-  gap: 3.19rem;
+  flex-direction: column;
+  align-items: center;
   --tw-bg-opacity: 1;
   background-color: rgb(220 233 226 / var(--tw-bg-opacity));
+}
+
+.arruma {
+  display: flex;
+  justify-content: center;
+  gap: 3.19rem;
+}
+
+.container {
+  display: flex;
+  height: 20.125rem;
+  width: 70rem;
+  --tw-translate-y: 4rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  align-items: center;
+  justify-content: space-around;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 250 241 / var(--tw-bg-opacity));
+}
+
+.container__pacientes {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__medicos {
+  display: flex;
+  flex-direction: column;
+  border-right-width: 2px;
+  border-left-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.container__mercado {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__h1 {
+  font-size: 3rem;
+  --tw-text-opacity: 1;
+  color: rgb(33 37 41 / var(--tw-text-opacity));
+}
+
+.container__h3 {
+  font-size: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 133 111 / var(--tw-text-opacity));
 }
 
 .conteudo__texto {
@@ -657,7 +741,6 @@ video {
 .principal__servicos {
   display: flex;
   height: 67.625rem;
-  width: 84.285rem;
   flex-direction: column;
   align-items: center;
   --tw-bg-opacity: 1;
@@ -734,7 +817,6 @@ video {
 .principal__sobre {
   display: flex;
   height: 45.875rem;
-  width: 84.285rem;
   align-items: center;
   justify-content: center;
   gap: 4.19rem;
@@ -780,7 +862,6 @@ video {
 .principal__contato {
   display: flex;
   height: 43.6875rem;
-  width: 84.285rem;
   align-items: center;
   justify-content: center;
   gap: 8.81rem;
@@ -817,7 +898,6 @@ video {
 .rodape {
   display: flex;
   height: 16.75rem;
-  width: 84.285rem;
   align-items: center;
   justify-content: space-around;
   --tw-bg-opacity: 1;
