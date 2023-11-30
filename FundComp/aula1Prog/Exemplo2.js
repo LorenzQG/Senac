@@ -12,6 +12,9 @@ if (num1 > num2 && num2 > num3) {
 } else if (num1 < num2 && num1 < num3) {
     soma = num2 + num3
 
+} else if (num1 == num2 && num2 == num3) {
+    soma = num1 + num2 + num3
+    
 } else {
     soma = num1 + num3
 }

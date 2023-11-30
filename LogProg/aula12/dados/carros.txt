@@ -1,0 +1,3 @@
+Corsa;Chevrolet;15000
+Palio;Fiat;5000
+Sandero;Renault;35000

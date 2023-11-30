@@ -15,7 +15,7 @@ const tempServ = anoAtual - anoTrab
 console.log(`Idade: ${idade}`)
 console.log(`Tempo de Serviço: ${tempServ}`)
 
-if(idade >= 60 || tempServ >= 25 || idade >= 55 && tempServ >= 20){
+if(idade >= 60 || tempServ >= 25 || (idade >= 55 && tempServ >= 20)){
     console.log(`${nome}, você pode requerer aposentadoria`)
     
 }else{

@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap');
 
 .cabecalho{
-    @apply flex justify-around items-center h-[4.5rem] bg-[#00856F] 
+    @apply flex justify-around items-center h-[4.5rem] bg-[#00856F] fixed w-[100vw] z-50
 }
 .cabecalho__nav{
     @apply text-white 
