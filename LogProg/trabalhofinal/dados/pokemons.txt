@@ -1,0 +1,5 @@
+Charizard;Fogo,Voador;6;N
+Squirtle;Agua;7;N
+Ivyssauro;Grama;2;N
+Mew;Psiquico;151;N
+Magikarp;Agua;129;S
