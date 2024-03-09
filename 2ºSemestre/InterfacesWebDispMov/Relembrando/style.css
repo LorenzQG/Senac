@@ -54,6 +54,10 @@ a{
 }
 a:hover{
     border-bottom: 2px black solid ;
+    font-size: 18px;
+    text-shadow:0px 6px 6px gray;
+    opacity: 70%;
+    transition: .4s;
 }
 
 .nav__buttons{
@@ -84,10 +88,12 @@ a:hover{
     background-color: darkred;
     color: white;
     transition: .4s;
+    padding: .8rem;
     
 }
 .buttons__cadastro:hover{
     background-color: darkred;
     color:white;
     transition: .4s;
+    padding: .8rem;
 }

@@ -1,0 +1,52 @@
+body{
+    background-color: antiquewhite;
+}
+img{
+    width: 15rem;
+    height: 15rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #696969;
+
+}
+header h1{
+    font-size: 70px;
+    font-style: italic;
+    color:antiquewhite;
+    border-bottom: 4px solid black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.Imagens{
+    display: flex;
+    gap: 1rem;
+}
+button{
+    border: none;
+    
+}
+button:hover{
+    border: solid #696969;
+    transition: .5s;
+    border-width: 7px 10px 7px 7px;
+    box-shadow: 7px 0px 0px 0px;
+}
+button:focus{
+    border: solid darkred;
+    border-width: 2px 5px 2px 2px;
+    transition: .7s;
+}
+
+span{
+    color:darkred;
+    margin-left: 7px;
+}
+
+
