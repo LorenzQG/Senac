@@ -43,6 +43,10 @@ button:focus{
     border-width: 2px 5px 2px 2px;
     transition: .7s;
 }
+button img{
+    width: 20rem;
+    height: 20rem;
+}
 
 span{
     color:darkred;

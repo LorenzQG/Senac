@@ -1,0 +1,13 @@
+.cor-vermelha{
+  color: red;
+}
+.cor-verde{
+  color: green;
+}
+.cor-amarela{
+  color:goldenrod;
+}
+.estilo-img{
+  margin-left: 3rem;
+  cursor: pointer;
+}

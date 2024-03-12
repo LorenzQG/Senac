@@ -1,0 +1,26 @@
+header,
+main {
+  margin-left: 3rem;
+}
+
+span {
+  color: red;
+  font-style: italic;
+}
+
+.figura-principal {
+  width: 30rem;
+  margin-left: 3rem;
+}
+
+.img-roleta {
+  display: flex;
+  gap: .01rem;
+}
+
+.img-roleta img {
+  width: 10rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  border: 2px gray solid;
+}
