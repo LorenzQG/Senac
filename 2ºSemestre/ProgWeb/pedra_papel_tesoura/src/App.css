@@ -1,0 +1,39 @@
+:root{
+  display: flex;
+  justify-content: center;
+}
+.destaque{
+  color: red;
+}
+
+h1{
+  text-align: center;
+}
+.cor_aposta{
+  color: green;
+}
+.cor_pc{
+  color: blue;
+}
+
+.imagem-peq{
+  width: 120px;
+  height: 80px;
+  margin-top: 80px;
+}
+
+.imagem-grande{
+  width: 240px;
+  height: 160px;
+}
+.imagem-click{
+  cursor: pointer;
+}
+.quadro{
+  height: 240px;
+}
+.mensagem{
+  color:green;
+  font-size: 30px;
+  margin-left: 1rem;
+}
