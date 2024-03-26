@@ -1,0 +1,18 @@
+.destaque{
+  color: red;
+}
+.imagem{
+  width: 50rem;
+  height: 20rem;
+}
+form{
+  border: 1px solid black;
+  width: 50rem;
+}
+.input_text{
+  border-radius: 3rem;
+  background-color: white;
+}
+input{
+  margin-right: 1rem;
+}
