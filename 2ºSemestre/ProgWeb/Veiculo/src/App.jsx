@@ -18,13 +18,24 @@ function App() {
     setResposta(`Promoção de ${modelo}`);
     setCalcula(`Entrada de R$: ${entrada} + 12x de R$: ${saldo.toFixed(2)}`);
   }
+  function limparForm() {
+    setResposta("");
+    setCalcula("");
+  }
 
   return (
     <>
       <h1 className="destaque">Concessionaria Senac</h1>
-      <img src="./capa-materia-showroom-comeri-santos.webp" alt="imagem" className="imagem"/>
+      <img
+        src="./capa-materia-showroom-comeri-santos.webp"
+        alt="imagem"
+        className="imagem"
+      />
 
-      <form onSubmit={handleSubmit(calcularPagamento)}>
+      <form
+        onSubmit={handleSubmit(calcularPagamento)}
+        onReset={handleSubmit(limparForm)}
+      >
         <p>
           <label htmlFor="modelo">Modelo do Veiculo: </label>
           <input
@@ -37,7 +48,13 @@ function App() {
         </p>
         <p>
           <label htmlFor="preco">Preço do veiculo:</label>
-          <input type="number" name="preco" id="preco" {...register("preco")} className="input_text"/>
+          <input
+            type="number"
+            name="preco"
+            id="preco"
+            {...register("preco")}
+            className="input_text"
+          />
         </p>
         <p>
           <input type="submit" value="Enviar" />
