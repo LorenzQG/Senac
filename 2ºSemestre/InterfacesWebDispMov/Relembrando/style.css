@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 body{
@@ -85,15 +88,106 @@ a:hover{
 }
 
 .buttons__login:hover{
-    background-color: darkred;
+    background-color: #8E2424;
     color: white;
     transition: .4s;
     padding: .8rem;
     
 }
 .buttons__cadastro:hover{
-    background-color: darkred;
+    background-color: #8E2424;
     color:white;
     transition: .4s;
     padding: .8rem;
 }
+
+.cabecalho__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.cabecalho__section h3{
+    color: #8E2424;
+    font-size: 16px;
+}
+.cabecalho__section p{
+    width: 44rem;
+    text-align: center;
+    color: #667085;
+    font-size: 17px;
+
+}
+.cabecalho__metricas{
+    display: flex;
+    gap: 2rem;
+    padding-left: 14.5rem;
+    padding-right: 7rem;
+    padding-bottom: 8rem;
+    
+}
+.metricas__div{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
+}
+.metricas__div h1{
+    font-size: 50px;
+}
+.metricas__div h2{
+    font-size: 17px;
+    text-wrap:nowrap;
+
+}
+.metricas__div p{
+    font-size: 13px;
+    width: 13rem;
+}
+.vermelho{
+    color:#8E2424;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+}
+.principal__vagas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    align-items: center;
+}
+.vagas__talentos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.talentos__separa{
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.talentos__separa h3{
+    font-size: 11px;
+    background-color:rgba(142, 36, 36, 5%);
+    color: #8E2424;
+    padding: 7px;
+    border-radius: 8rem;
+}
+.vagas__talentos img{
+    width: 65rem;
+}
+.vagas__abertas{
+    display: flex;
+    flex-direction: column;
+}
+
+

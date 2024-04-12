@@ -1,41 +1,245 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Clinica</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="cabecalho">
-        <nav class="cabecalho__nav">
-            <img src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Union.png" alt="" class="nav__logo">
-            <div class="nav__text">
-                <h1>odontologia integral</h1>
-                <h2>Salud & Estetica Dental</h2>
-            </div>
-            <img src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Group 9.png" alt="" class="nav__menu">
-        </nav>
-        <img src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/image 1.png" alt="" id="dentista">
-        <div class="cabecalho__present">
-            <h3>En Cordoba Capital</h3>
-            <h1>Una excelente experiencia <span>Odontologia</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit molestie, rhoncus luctus arcu ut eros augue. Eu
-                commodo laoreet parturient quam purus magna pretium luctus.</p>
+      <nav class="cabecalho__nav">
+        <img
+          src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Union.png"
+          alt=""
+          class="nav__logo"
+        />
+        <div class="nav__text">
+          <h1>odontologia integral</h1>
+          <h2>Salud & Estetica Dental</h2>
         </div>
-        <div class="cabecalho__button">
-            <button>Saca tu turno</button>
-            <button>Nuestro Serviço</button>
-        </div>
+        <img
+          src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Group 9.png"
+          alt=""
+          class="nav__menu"
+        />
+      </nav>
+      <img
+        src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/image 1.png"
+        alt=""
+        id="dentista"
+      />
+      <div class="cabecalho__present">
+        <h3>En Cordoba Capital</h3>
+        <h1>Una excelente experiencia <span>Odontologia</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit molestie,
+          rhoncus luctus arcu ut eros augue. Eu commodo laoreet parturient quam
+          purus magna pretium luctus.
+        </p>
+      </div>
+      <div class="cabecalho__button">
+        <button class="botao">Saca tu turno</button>
+        <button class="botao">Nuestro Serviço</button>
+      </div>
     </header>
-</body>
+    <main>
+      <section class="principal__info">
+        <div class="info__data">
+          <img
+            src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Vector.png"
+            alt=""
+          />
+          <h1>Direccíon</h1>
+          <div class="data__text">
+            <h3>Av. Color 1560</h3>
+            <h3>Cordoba, Cordoba Capital</h3>
+          </div>
+        </div>
 
+        <div class="info__data">
+          <img
+            src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Vector (1).png"
+            alt=""
+          />
+          <h1>Email</h1>
+          <div class="data__text">
+            <h3 id="email">info@tudentista.com.ar</h3>
+            <h3 id="email">info@tudentista.com.ar</h3>
+          </div>
+        </div>
+
+        <div class="info__data">
+          <img
+            src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Vector (2).png"
+            alt=""
+          />
+          <h1>Telefonos</h1>
+          <div class="data__text">
+            <h3>351 7608XXX</h3>
+            <h3>3541 7825XXX</h3>
+          </div>
+        </div>
+      </section>
+      <section class="principal__servicos">
+        <div class="servicos__title">
+          <h2>Especialidades</h2>
+          <h1>Nuestros Servicios</h1>
+        </div>
+        <div class="servicos__container">
+          <img
+            src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Group 93.png"
+            alt=""
+            id="implante"
+          />
+          <h1>Implantes</h1>
+          <p>
+            Los implantes dentales son un sustituto artificial de los dientes y
+            sus raíces. Generalmente de forma roscada, los implantes poseen un
+            aspecto y sensación similares a los dientes naturales logrando de
+            esta manera una mayor comodidad, seguridad y confianza en su uso,
+            respecto de otros métodos.
+          </p>
+          <span
+            >Ver Mas
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Vector (3).png"
+              alt=""
+          /></span>
+        </div>
+        <div class="servicos__container">
+          <img
+            src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Union.png"
+            alt=""
+            id="implante"
+          />
+          <h1>Implantes</h1>
+          <p>
+            Los implantes dentales son un sustituto artificial de los dientes y
+            sus raíces. Generalmente de forma roscada, los implantes poseen un
+            aspecto y sensación similares a los dientes naturales logrando de
+            esta manera una mayor comodidad, seguridad y confianza en su uso,
+            respecto de otros métodos.
+          </p>
+          <span
+            >Ver Mas
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Vector (3).png"
+              alt=""
+          /></span>
+        </div>
+        <div class="servicos__container">
+          <img
+            src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/crown-alt.png"
+            alt=""
+            id="implante"
+          />
+          <h1>Implantes</h1>
+          <p>
+            Los implantes dentales son un sustituto artificial de los dientes y
+            sus raíces. Generalmente de forma roscada, los implantes poseen un
+            aspecto y sensación similares a los dientes naturales logrando de
+            esta manera una mayor comodidad, seguridad y confianza en su uso,
+            respecto de otros métodos.
+          </p>
+          <span
+            >Ver Mas
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Vector (3).png"
+              alt=""
+          /></span>
+        </div>
+        <div class="servicos__container">
+          <img
+            src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/cavity.png"
+            alt=""
+            id="implante"
+          />
+          <h1>Implantes</h1>
+          <p>
+            Los implantes dentales son un sustituto artificial de los dientes y
+            sus raíces. Generalmente de forma roscada, los implantes poseen un
+            aspecto y sensación similares a los dientes naturales logrando de
+            esta manera una mayor comodidad, seguridad y confianza en su uso,
+            respecto de otros métodos.
+          </p>
+          <span
+            >Ver Mas
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Vector (3).png"
+              alt=""
+          /></span>
+        </div>
+        <div class="servicos__container">
+          <img
+            src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/golden-crown.png"
+            alt=""
+            id="implante"
+          />
+          <h1>Implantes</h1>
+          <p>
+            Los implantes dentales son un sustituto artificial de los dientes y
+            sus raíces. Generalmente de forma roscada, los implantes poseen un
+            aspecto y sensación similares a los dientes naturales logrando de
+            esta manera una mayor comodidad, seguridad y confianza en su uso,
+            respecto de otros métodos.
+          </p>
+          <span>
+            Ver Mas
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Vector (3).png"
+              alt=""
+          /></span>
+        </div>
+        <div class="servicos__container">
+          <img
+            src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Group 107.png"
+            alt=""
+            id="implante"
+          />
+          <h1>Implantes</h1>
+          <p>
+            Los implantes dentales son un sustituto artificial de los dientes y
+            sus raíces. Generalmente de forma roscada, los implantes poseen un
+            aspecto y sensación similares a los dientes naturales logrando de
+            esta manera una mayor comodidad, seguridad y confianza en su uso,
+            respecto de otros métodos.
+          </p>
+          <span>
+            Ver Mas
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Vector (3).png"
+              alt=""
+          /></span>
+        </div>
+      </section>
+      <section class="principal__avaliacao">
+        <h3>Testimonios</h3>
+        <h1 id="avaliacao__titulo"> Lo que opinan nuestros pacientes</h1>
+        <div class="avaliacao__container">
+          <div class="container__persona">
+            <h1>Maria Paz</h1>
+            <img src="/2ºSemestre/InterfacesWebDispMov/MobileFirst/img/Group 132.png" alt="">
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit conubia,
+            massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh,
+            interdum faucibus ad diam vivamus vehicula fames.
+          </p>
+        </div>
+        <button class="botao">Ver mais reviews</button>
+      </section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+  </body>
 </html>
