@@ -1,0 +1,38 @@
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.titulo {
+  display: flex;
+  background-color: brown;
+  color: white;
+  padding: 15px;
+}
+.logo {
+  height: 120px;
+  margin-right: 30px;
+  
+}
+.principal {
+  display: flex;
+}
+
+.foto-carro {
+  width: 500px;
+  height: 320px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.subtitulo {
+  font-weight: bold;
+}
+.rodape {
+  display: flex;
+  background-color: blue;
+  color: white;
+}
+.texto-rodape {
+  margin-top: 24px;
+  margin-left: 30px;
+}
