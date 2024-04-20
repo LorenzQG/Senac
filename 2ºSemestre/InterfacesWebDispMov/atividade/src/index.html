@@ -1,40 +1,211 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <link rel="stylesheet" href="input.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="input.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="cabecalho">
-        <nav class="cabecalho__nav">
-            <h1 class="nav__logo">Doctor<span class="logo__span">Care</span></h1>
-            <div class="nav__menu">
-                <a href="">Início</a>
-                <a href="">Sobre</a>
-                <a href="">Serviços</a>
-                <a href="">Depoimentos</a>
-            </div>
-            <button class="secondary__button">agendar consulta</button>
-        </nav>
-        <div class="cabecalho__text">
-            <h3 class="text__subtitle"></h3>
-            <h1 class="text__title"></h1>
-            <p class="text__paragraph"></p>
-            <button class="primary__button"></button>
+      <nav class="cabecalho__nav">
+        <h1 class="nav__logo">Doctor<span class="logo__span">Care</span></h1>
+        <div class="nav__menu">
+          <a href="">Início</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#services">Serviços</a>
+          <a href="">Depoimentos</a>
         </div>
-        <img src="" alt="" class="cabecalho__figure">
+        <button class="secondary__button">agendar consulta</button>
+        <button class="button__mobile"><img src="/2ºSemestre/InterfacesWebDispMov/atividade/img/Icon (1)-verde.png" alt=""></button>
+      </nav>
     </header>
-    <main>
+    <main class="main">
+      <section class="main__hero">
+        <div class="cabecalho__text">
+          <h3>Boas-vindas ao DoctorCare</h3>
+          <h1>Assistência médica simplificada para todos</h1>
+          <p>
+            Os médicos da DoctorCare vão além dos sintomas para tratar a causa
+            raiz de sua doença e proporcionar uma cura a longo prazo.
+          </p>
+          <button class="primary__button">
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/atividade/img/whatsapp-branco.png"
+              alt=""
+            />
+            Agende sua consulta
+          </button>
+        </div>
+        <img
+          src="/2ºSemestre/InterfacesWebDispMov/atividade/img/image.png"
+          alt=""
+          class="cabecalho__figure"
+        />
+      </div>
+      <div class="details">
+        <div class="details__container">
+          <h1>+3.500</h1>
+          <p>Pacientes Atendidos</p>
+        </div>
 
+        <img src="/2ºSemestre/InterfacesWebDispMov/atividade/img/divider.png" alt="" class="divider">
+       
+        <div class="details__container">
+          <h1>+15</h1>
+          <p>Especialistas Disponiveis</p>
+        </div>
+
+        <img src="/2ºSemestre/InterfacesWebDispMov/atividade/img/divider.png" alt="" class="divider">
+      
+        <div class="details__container">
+          <h1>+10</h1>
+          <p>Anos no Mercado</p>
+        </div>
+      </div>
+
+      </section>
+      <section class="main__services" id="services">
+        <div class="services__text">
+          <span>serviços</span>
+          <h1>Como podemos ajudá-lo a se sentir melhor?</h1>
+        </div>
+        <div class="services__container">
+          <div class="services__deck">
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/atividade/img/verify.png"
+              alt=""
+            />
+            <h1>Problemas Digestivos</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              illo officia, neque necessitatibus vero vel, saepe placeat ipsam
+              alias dolores ut eveniet, facere voluptatibus. Facere libero
+              corrupti fuga dignissimos quo.
+            </p>
+          </div>
+          <div class="services__deck">
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/atividade/img/verify.png"
+              alt=""
+            />
+            <h1>Saúde Hormonal</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              tempora et sit placeat perferendis laudantium aut, accusantium
+              commodi deleniti autem reprehenderit suscipit! Culpa consectetur
+              eaque aliquid, temporibus ea sapiente velit.
+            </p>
+          </div>
+          <div class="services__deck">
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/atividade/img/verify.png"
+              alt=""
+            />
+            <h1>Bem-estar mental</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              tempora et sit placeat perferendis laudantium aut, accusantium
+              commodi deleniti autem reprehenderit suscipit! Culpa consectetur
+              eaque aliquid, temporibus ea sapiente velit.
+            </p>
+          </div>
+          <div class="services__deck">
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/atividade/img/verify.png"
+              alt=""
+            />
+            <h1>Cuidados Pediatricos</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              tempora et sit placeat perferendis laudantium aut, accusantium
+              commodi deleniti autem reprehenderit suscipit! Culpa consectetur
+              eaque aliquid, temporibus ea sapiente velit.
+            </p>
+          </div>
+          <div class="services__deck">
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/atividade/img/verify.png"
+              alt=""
+            />
+            <h1>Autoimune e inflamação</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              tempora et sit placeat perferendis laudantium aut, accusantium
+              commodi deleniti autem reprehenderit suscipit! Culpa consectetur
+              eaque aliquid, temporibus ea sapiente velit.
+            </p>
+          </div>
+          <div class="services__deck">
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/atividade/img/verify.png"
+              alt=""
+            />
+            <h1>Saude do coração</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates, maxime? Excepturi praesentium, nihil est ratione
+              voluptate minima laudantium corrupti quaerat corporis, quas ipsa
+              debitis voluptates eum, libero itaque nesciunt. Distinctio!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="main__sobre" id="sobre">
+        <img
+          src="/2ºSemestre/InterfacesWebDispMov/atividade/img/medico.png"
+          alt=""
+        />
+        <div class="sobre__text">
+          <span>sobre nós</span>
+          <h1>Entenda quem somos e por que existimos</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            facilis ducimus iusto libero sed beatae quidem asperiores nihil
+            eveniet tenetur voluptatum ipsa esse fugiat, quasi magnam. At
+            obcaecati saepe repellendus.
+          </p>
+        </div>
+      </section>
+      <section class="main__contact" id="contact">
+        <div class="contact__text">
+          <h1>Entre em contato com a gente!</h1>
+          <span
+            ><img
+              src="/2ºSemestre/InterfacesWebDispMov/atividade/img/map-pin.png"
+              alt=""
+            />R. Amauri Souza, 346</span
+          >
+          <span
+            ><img
+              src="/2ºSemestre/InterfacesWebDispMov/atividade/img/mail.png"
+              alt=""
+            />contato@doctorcare.com</span
+          >
+          <button class="primary__button">
+            <img
+              src="/2ºSemestre/InterfacesWebDispMov/atividade/img/whatsapp-branco.png"
+              alt=""
+            />
+            Agende sua consulta
+          </button>
+        </div>
+        <img src="/2ºSemestre/InterfacesWebDispMov/atividade/img/pessoa.png" alt="">
+      </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+      <div class="footer__text">
+        <h1>Doctor<span class="bold">Care</span></h1>
+        <p>&copy;2022 - DoctorCare</p>
+        <p>Todos os direitos reservados</p>
+      </div>
+      <div class="footer__social">
+        <img src="/2ºSemestre/InterfacesWebDispMov/atividade/img/insta_branco.png" alt="">
+        <img src="/2ºSemestre/InterfacesWebDispMov/atividade/img/face__branco.png" alt="">
+        <img src="/2ºSemestre/InterfacesWebDispMov/atividade/img/youtube_branco.png" alt="">
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
