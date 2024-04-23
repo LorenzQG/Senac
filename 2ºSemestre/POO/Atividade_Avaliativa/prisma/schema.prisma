@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model client {
+  cpf  String @id @unique(map: "Client_cpf_key") @db.VarChar(11)
+  name String
+  tel  Int
+}
+
+model quadra {
+  id       Int     @id @default(autoincrement())
+  name     String
+  isLocate Boolean @default(false)
+  tipo     String
+}
+
+model reserva {
+  client_id String   @unique(map: "Reserva_client_id_key")
+  quadra_id Int      @unique(map: "Reserva_quadra_id_key")
+  dataHora  DateTime @default(now())
+}

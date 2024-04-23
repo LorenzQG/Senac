@@ -1,8 +1,11 @@
+import { PrismaClient } from "@prisma/client";
 import { Quadras } from "./Quadras";
 import Prompt from "prompt-sync"
 
 const teclado = Prompt();
 let quadra: Quadras = new Quadras()
+let prisma = new PrismaClient()
+
 
 while (true) {
     console.log("*".repeat(25));
@@ -18,6 +21,7 @@ while (true) {
     }
     if (opcao == 2) {
         quadra.listaQuadra();
+        
     }
     if (opcao == 0) {
         break;

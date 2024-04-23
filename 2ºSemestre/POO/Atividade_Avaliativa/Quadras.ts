@@ -1,39 +1,44 @@
 import Prompt from "prompt-sync";
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient()
+async function addQuadra(nome?:string, tipo?:string){
+        await prisma.quadra.create({
+        data: {
+            name: nome,
+            tipo: tipo
+        }
+    })
+}
+
+
 export class Quadras {
-    quadras: any[][];
-    isLocate: boolean;
+    nome: string
+    tipo: string
+    isLocate: Boolean
+
+
 
     constructor() {
-        this.quadras = [[]];
+        this.nome = "";
+        this.tipo = "";
         this.isLocate = false;
     }
 
-    registraQuadra() {
-        const teclado = Prompt();
-        let nome:String;
-        let tipo:String;
-        let locado:String;
+    async registraQuadra() {
         
-        nome = teclado("Digite o nome da Quadra: ").toString();
-        tipo = teclado("Digite o tipo da Quadra: ").toString();
-        locado = this.isLocate.toString();
-
-
-        this.quadras.push([nome, tipo, locado]);
+        const teclado = Prompt();
+        this.nome = teclado("Digite o nome da quadra: ")
+        this.tipo = teclado("Digite o tipo da quadra: ")
+        
+        addQuadra(this.nome, this.tipo)
+        
     }
-    listaQuadra() {
-        for(let i = 0; i < this.quadras.length; i++){
-            for(let j = 0; i < this.quadras[i].length; j++){
-                let registro = this.quadras[i][j];
+    async listaQuadra() {
 
-                console.log(registro)
 
-            }
-            
-
-        }
+       
     }
-
-
-
+    
 }
+
