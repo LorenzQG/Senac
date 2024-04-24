@@ -1,5 +1,6 @@
 generator client {
   provider = "prisma-client-js"
+  engineType = "binary"
 }
 
 datasource db {
@@ -16,7 +17,7 @@ model client {
 model quadra {
   id       Int     @id @default(autoincrement())
   name     String
-  isLocate Boolean @default(false)
+  isLocate String 
   tipo     String
 }
 
