@@ -1,4 +1,4 @@
-import Prompt from "prompt-sync";
+
 import prisma from "./Cliente";
 
 export class Quadras {
@@ -24,7 +24,9 @@ export class Quadras {
         })
     }
     async listaQuadra() {
-        const quadras = await prisma.$queryRaw`SELECT id as 'Codigo da Quadra', name as Nome, tipo as Tipo, isLocate as Disponibilidade FROM quadra`
+        const quadras = await prisma.$queryRaw`SELECT 
+        id as 'Codigo da Quadra', name as Nome, tipo 
+        as Tipo, isLocate as Disponibilidade FROM quadra`
         return quadras
     }
 }

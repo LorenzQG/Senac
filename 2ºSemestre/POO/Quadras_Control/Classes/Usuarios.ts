@@ -9,11 +9,10 @@ export class Usuarios {
         this.cpf = "";
         this.tel = 0;
     }
-    async registraUsuario() {
-        const teclado = Prompt();
-        this.nome = teclado("Digite o nome do usuário: ");
-        this.cpf = teclado("Digite o CPF do usuário: ");
-        this.tel = +teclado("Digite o telefone do usuário: ");
+    async registraUsuario(nome: string, cpf: string, tel: number) {
+        this.nome = nome
+        this.cpf = cpf
+        this.tel = tel
         await prisma.client.create({
             data: {
                 name: this.nome,
@@ -23,7 +22,9 @@ export class Usuarios {
         });
     }
     async listaUsuarios() {
-        const usuarios = await prisma.$queryRaw `SELECT name as Nome, cpf as CPF, tel as Telefone FROM client`;
+        const usuarios = await prisma.$queryRaw
+            `SELECT name as Nome, cpf as CPF, tel as
+          Telefone FROM client`;
         return usuarios
     }
 

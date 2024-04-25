@@ -33,21 +33,21 @@ async function main() {
             console.table(quadras);
         }
         if (opcao == 3) {
-            await clientes.registraUsuario();
+            await clientes.registraUsuario(teclado("Nome do Cliente: "), teclado("CPF do Cliente: "), +teclado("Telefone do Cliente: "));
         }
         if (opcao == 4) {
             let usuarios = await clientes.listaUsuarios();
             console.table(usuarios);
         }
         if (opcao == 5) {
-            await reservas.reservaQuadra();
+            await reservas.reservaQuadra(+teclado("Codigo da Quadra: "), teclado("CPF do Cliente: "));
         }
         if (opcao == 6) {
             let saida = await reservas.listaReservas();
             console.table(saida)
         }
         if (opcao == 7) {
-            await reservas.desfazerReserva();
+            await reservas.desfazerReserva(+teclado("Codigo da Quadra: "));
         }
         if (opcao == 0) {
             break;
